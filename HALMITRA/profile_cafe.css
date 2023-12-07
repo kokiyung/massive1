@@ -1,0 +1,134 @@
+body {
+  background-color: #f2f2f2;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar {
+  width: 20%;
+  margin: 0px 20px;
+  background-color: #ffff;
+  height: 100vh;
+}
+.sidebar .logo {
+  display: flex;
+  font-family: poppins;
+  font-size: 36px;
+  margin: 15px 15px;
+}
+.sidebar .logo div:nth-child(1) {
+  color: #603813;
+}
+.sidebar .logo div:nth-child(2) {
+  color: #fcb040;
+}
+.sidebar .menu {
+  font-family: poppins;
+  padding-left: 25px;
+  margin: 15px 0px;
+  font-size: 20px;
+}
+.sidebar .menuactive {
+  font-family: poppins;
+  padding-left: 25px;
+  font-size: 20px;
+}
+.sidebar .menuactive {
+  background-color: #fff5e5;
+}
+.sidebar .menu a {
+  text-decoration: none;
+  color: #a7a7a7;
+}
+.sidebar .menuactive a {
+  text-decoration: none;
+  color: #fcb040;
+}
+/* Conten */
+.konten {
+  width: 80%;
+}
+.konten .akun {
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  background-color: #fcb040;
+  text-align: right;
+  height: 5%;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.konten .mainconten h1 {
+  color: #717d96;
+}
+.konten .mainconten {
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: #F2F2F2;;
+  padding: 20px;
+  display: flex;
+  height: 80vh;
+  
+}
+.konten .mainconten .maincontentleft{
+  width: 50%;
+  background-color: #FFFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin: 0px 20px;
+  text-align: center;
+  padding-top: 150px;
+}
+.konten .mainconten .maincontentleft img{
+  width: 150px;
+  height: 150px;
+}
+.konten .mainconten .maincontentleft p{
+  text-align: left;
+  padding-left: 50px;
+  line-height: 35px;
+}
+.konten .mainconten .maincontentleft button{
+  background-color: #fcb040;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+.konten .mainconten .maincontentleft button a{
+  text-decoration: none;
+  color: #F2F2F2;
+}
+.konten .mainconten .maincontentright{
+  width: 50%;
+  background-color: #FFFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding-left: 50px;
+}
+.konten .mainconten .maincontentright label{
+  font-size: 18px;
+  font-family: poppins;
+  color: #717D96;
+}
+.konten .mainconten .maincontentright input[type="text"]{
+  width: 80%;
+  height: 35px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  font-size: 20px;
+  padding-left: 15px;
+  color: #a7a7a7;
+}
+.konten .mainconten .maincontentright input[type="submit"]{
+  background-color: #fcb040;
+  color: #F2F2F2;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+
+}

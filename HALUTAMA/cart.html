@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cartstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="logo">
+            <div class="firstlogo">Pesen</div>
+            <div class="secondlogo">In</div>
+        </div>
+        <div class="centernav">Dine In Shopping Cart</div>
+        <div class="sidebutton">
+            <div class="firstbutton"><a href="cartmenu.html"><i class="fa fa-angle-left"></i></a></div>
+        </div>
+    </div>
+    <!-- Section PAY -->
+    <div class="container">
+        <!-- STRUK -->
+        <div class="struk">
+            <table>
+                <tr>
+                    <th>Menu</th>
+                    <th>ORDER</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td>rashberry</td>
+                    <td>1</td>
+                    <td>Rp. 15.000</td>
+                    <td>RP 15.000</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Tax</td>
+                    <td>RP. 1500</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>RP. 16.500</td>
+                </tr>
+            </table>
+            
+        </div>
+        <!-- Payement -->
+        <div class="paymentmethode">
+            <div class="payopsi">
+                <div>Cash</div>
+                <div>Debit</div>
+            </div>
+            <div class="paybank">
+                <div><img src="Img/payment/OVO.png" alt=""></div>
+                <div><img src="Img/payment/BCA_logo_Bank_Central_Asia.png" alt=""></div>
+                <div><img src="Img/payment/BNI.png" alt=""></div>
+            </div>
+            <div class="paycard">
+                <form action="sukses.html">
+                    <label for="">Name card</label><br>
+                    <input type="text" placeholder="Input Name Card"><br>
+                    <label for="">Account Number</label><br>
+                    <input type="text" placeholder="Input account number"><br>
+                    <label for="">Destination account</label><br>
+                    <input type="text" placeholder="Input destination number"><br>
+                    <label for="">Nominal</label><br>
+                    <input type="text" placeholder="Input Total">
+                    <div style="text-align: right; margin-right: 20px;">
+                        <input type="submit" value="Pay Now">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!-- FOOTER -->
+    <footer>
+        &copy;2023 Pesan-In. All rights reserved.
+    </footer>
+</body>
+</html>
